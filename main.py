@@ -5,8 +5,8 @@ with no trailing newline.
 """
 
 LINE = (
-    "Dear Manager, I resign: the office coffee machine was replaced before I "
-    "ever got a raise, and frankly, it earned it first."
+    "Dear Manager, I quit: the coffee machine got replaced before I got a "
+    "raise, and honestly, it earned it first."
 )
 
 assert 1 <= len(LINE) <= 140 and LINE.strip(), "gate: line must be 1-140 chars, not blank"
